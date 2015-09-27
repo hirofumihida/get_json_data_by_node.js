@@ -1,1 +1,10 @@
-# get_json_data_by_node.js
+Get JSON data by Node.js
+
+### Pre-Requisite
+
+* https://github.com/baalexander/node-xmlrpc
+
+### Function
+
+* Reload JSON Every invoking.
+
