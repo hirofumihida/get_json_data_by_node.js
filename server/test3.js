@@ -17,6 +17,6 @@ server.on('NotFound', function(method, params) {
 server.on('get', function (err, params, callback) {
   console.log('Method call params for \'get\': ' + params)
   data = reload()
-  callback(null, content[0])
+  callback(null, data[0])
 })
 console.log('XML-RPC server listening on port 9090')
